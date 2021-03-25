@@ -1,0 +1,21 @@
+<odoo>
+  <data>
+	  <record model="ir.ui.view" id="redhatecosystem.red_hat_ecosystem_overview">
+	    <field name="name">Red Hat Ecosystem Overview</field>
+	    <field name="model">redhatecosystem.ecosystem.overview</field>
+	    <field name="arch" type="xml">
+	        <tree string="Red Hat Ecosystem">
+			<field name="id"/>
+		</tree>
+	    </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="redhatecosystem.action_red_hat_ecosystem_overview_window">
+      <field name="name">Red Hat Ecosystem Overview</field>
+      <field name="res_model">redhatecosystem.ecosystem.overview</field>
+      <field name="view_mode">tree</field>
+      <field name="view_id" ref="redhatecosystem.red_hat_ecosystem_overview"/>
+      <field name="domain">[]</field>
+    </record>
+  </data>
+</odoo>
