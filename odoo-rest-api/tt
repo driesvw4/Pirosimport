@@ -1,0 +1,2 @@
+curl --location --request POST 'http://localhost:8069/api/crm.lead/' --header 'Content-Type: application/json' --header 'Cookie: session_id=664196946fd37ffffe4512ff2d4a4cbc30f4a79f' --data-raw '{
+    "params": { "data": { "name": "APITEST" }, "session_id": "664196946fd37ffffe4512ff2d4a4cbc30f4a79f" } }'

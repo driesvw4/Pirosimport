@@ -1,0 +1,8 @@
+{
+    "jsonrpc": "2.0",
+    "params": {
+        "login": "mc@piros.be",
+        "password": "Dfuwksx4!",
+        "db": "Dev"
+    }
+}

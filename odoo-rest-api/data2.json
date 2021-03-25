@@ -1,0 +1,9 @@
+{
+    "jsonrpc": "2.0",
+    "params": {
+        "data": {
+          "name": "Test vanuit API"
+        },
+        "session_id": "a64313046fd530baf4f6ed8021addc38e308baf1"
+    }
+}
