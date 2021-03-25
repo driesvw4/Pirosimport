@@ -25,7 +25,7 @@ class ResConfigSettings(models.TransientModel):
 class SaleOrder(models.Model):
     _inherit = "sale.order"
 
-    @api.multi
+
     def copy(self, default=None):
         self.ensure_one()
         if default is None:
@@ -45,7 +45,6 @@ class SaleOrder(models.Model):
                 'sale.quotation') or '/'
         return super(SaleOrder, self).create(vals)
 
-    @api.multi
     def action_confirm(self):
         if super(SaleOrder, self).action_confirm():
             company = self.env['res.company']. \
